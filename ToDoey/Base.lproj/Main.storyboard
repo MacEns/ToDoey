@@ -29,7 +29,14 @@
                             <outlet property="delegate" destination="ZEy-30-Dow" id="WGw-Vk-bBC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MackeyList" id="kMe-ts-Fvd"/>
+                    <navigationItem key="navigationItem" title="MackeyList" id="kMe-ts-Fvd">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="LTK-9K-Rzb">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="ZEy-30-Dow" id="Eh8-2s-xMX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uln-DI-S5D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
